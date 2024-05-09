@@ -14,7 +14,7 @@ It should work similar to a walkie-talkie system. You can send the morse code me
 
 ## Motivation
 
-I wanted a quick and quiet way of communicating basic messages between my friends. Working with audio systems and PA equipments i  
+I wanted a quick and quiet way of communicating basic messages between my friends. Working with audio systems and PA equipments we usually need to send short important messages and would like not to be observed by the whole gathering at church or conference. Messages like: volume up/ down, mute mic, next slide, etc.
 
 ## Architecture 
 
@@ -55,7 +55,16 @@ The format is
 | Device | Usage | Price |
 |--------|--------|-------|
 | [Rapspberry Pi Pico W](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html) | The microcontroller | [35 RON](https://www.optimusdigital.ro/en/raspberry-pi-boards/12394-raspberry-pi-pico-w.html) |
-
+| [Rapspberry Pi Pico W](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html) | The 2nd microcontroller | [35 RON](https://www.optimusdigital.ro/en/raspberry-pi-boards/12394-raspberry-pi-pico-w.html) |
+| 2 x [Buzzer](https://www.optimusdigital.ro/ro/audio-buzzere/12247-buzzer-pasiv-de-33v-sau-3v.html?search_query=buzzer&results=61) | Receiving signal through sound | 2 x [2 RON](https://www.optimusdigital.ro/ro/audio-buzzere/12247-buzzer-pasiv-de-33v-sau-3v.html?search_query=buzzer&results=61) |
+| [Red LED](https://www.optimusdigital.ro/ro/optoelectronice-led-uri/29-led-set-3-culori-x-10-pcs-fiecare.html?search_query=led+albastru&results=66) | Receiving signal through light | [0.40 RON](https://www.optimusdigital.ro/ro/optoelectronice-led-uri/29-led-set-3-culori-x-10-pcs-fiecare.html?search_query=led+albastru&results=66) |
+| [Blue LED](https://www.optimusdigital.ro/ro/optoelectronice-led-uri/29-led-set-3-culori-x-10-pcs-fiecare.html?search_query=led+albastru&results=66) | Receiving signal through light | [0.30 RON](https://www.optimusdigital.ro/ro/optoelectronice-led-uri/29-led-set-3-culori-x-10-pcs-fiecare.html?search_query=led+albastru&results=66) |
+| 2 x [Vibration Motor](https://www.optimusdigital.ro/ro/motoare-motoare-cu-vibratii/86-motor-cu-vibratii-a1027.html?search_query=vibrat&results=53) | Receiving signal through vibrations | 2 x [10 RON](https://www.optimusdigital.ro/ro/motoare-motoare-cu-vibratii/86-motor-cu-vibratii-a1027.html?search_query=vibrat&results=53) |
+| 2 x [Stereo Potentiometer](https://www.optimusdigital.ro/ro/componente-electronice-potentiometre/1886-potentiometru-stereo-10k.html?search_query=potentiometru&results=173) | For controlling the volume of buzzer and intensity of LED | 2 x [2 RON](https://www.optimusdigital.ro/ro/componente-electronice-potentiometre/1886-potentiometru-stereo-10k.html?search_query=potentiometru&results=173) |
+| [LCD with Yellow-Green Backlight](https://www.optimusdigital.ro/en/lcds/62-1602-lcd-with-i2c-interface-and-yellow-green-backlight.html?search_query=lcd&results=257) | For showing the translated message | [15 RON](https://www.optimusdigital.ro/en/lcds/62-1602-lcd-with-i2c-interface-and-yellow-green-backlight.html?search_query=lcd&results=257) |
+| [LCD with Blue Backlight](https://www.optimusdigital.ro/en/lcds/2894-1602-lcd-with-i2c-interface-and-blue-backlight.html?search_query=lcd&results=257) | For showing the translated message | [16 RON](https://www.optimusdigital.ro/en/lcds/2894-1602-lcd-with-i2c-interface-and-blue-backlight.html?search_query=lcd&results=257) |
+| 2 x [Button]| For sending the message| |
+| 2 x [Toggle switch] | For switching between outputs (LED, BUZZER, VIBRATION) | |
 
 ## Software
 
