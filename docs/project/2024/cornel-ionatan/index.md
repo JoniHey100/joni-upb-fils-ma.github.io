@@ -1,20 +1,20 @@
-# Project Name
-A one line project description
+# Morse Code spy device
+A comunication device that lets you comunicate within the same network with another person through morse code.
 
 :::info 
 
-**Author**: Student Name \
-**GitHub Project Link**: link_to_github
+**Author**: Cornel Ionatan \
+**GitHub Project Link**: https://github.com/UPB-FILS-MA/project-JoniHey100
 
 :::
 
 ## Description
 
-Describe in a few words your project idea.
+It should work similar to a walkie-talkie system. You can send the morse code message by pressing a button, and you can choose among 3 ways depending on how you want to receive the message: sound (buzzer), light (LED) or feel (vibration motor). Additionally i could implement translataion of the message and use a LCD which displays the message received into English alphabet.
 
 ## Motivation
 
-Why did you choose this project?
+I wanted a quick and quiet way of communicating basic messages between my friends. Working with audio systems and PA equipments i  
 
 ## Architecture 
 
